@@ -38,9 +38,6 @@ it('Displays a single note on a click', function() {
 
   showNoteForCurrentPage();
 
-
-
-
   window.setTimeout(function(){
      var htmlOutput = noteView.printNoteHTML();
  
