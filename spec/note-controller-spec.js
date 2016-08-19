@@ -6,7 +6,7 @@ it('NoteController can modify HTML on document', function(){
 
   var element = document.createElement('div');
   element.id = 'app';
-  document.body.appendChild(element);
+  // document.body.appendChild(element);
   noteController._getAppDiv = function () {
     return element;
   };
